@@ -1041,6 +1041,10 @@ const autoGenList: AutoGenConfig[] = [
         namespace: 'Microsoft.DeviceUpdate',
     },
     {
+        basePath: 'connectedvmware/resource-manager',
+        namespace: 'Microsoft.ConnectedVMwarevSphere',
+    },
+    {
         basePath: 'mediaservices/resource-manager',
         namespace: 'Microsoft.Media',
         postProcessor: mediaPostProcessor
